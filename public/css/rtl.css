@@ -1,0 +1,11 @@
+.radio input[type="radio"], .radio-inline input[type="radio"], .checkbox input[type="checkbox"], .checkbox-inline input[type="checkbox"] {margin:inherit; position: inherit}
+.label {display: inline-block}
+.btn {font-weight:normal}
+.nav, .list-unstyled, .list-group {padding-right:0}
+.jssocials-share:last-child {margin-right:.6em !important}
+.jssocials-share:first-child {margin-right:0 !important}
+#search-input {direction: rtl}
+.dropdown-menu {text-align: right}
+.notification-container {direction:ltr}
+#location-input {padding-right:40px}
+.leaflet-container {direction: ltr}

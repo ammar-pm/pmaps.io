@@ -1,0 +1,109 @@
+.brand .brand-logo img {max-height:50px}
+
+.hidden {display:none}
+
+.bg-transparent {background:transparent}
+
+.p-lg {padding:20px}
+
+.text-center {text-align:center}
+
+.sidebar-panel {z-index:9999 !important}
+
+.media-item img {height: 140px}
+.select2-container .select2-selection{
+	line-height: 20px;
+}
+.note-popover.popover{
+	display: none;
+}
+
+.select2-search input {background-image:none !important}
+
+.legend {text-align: left; line-height: 18px; color: #555; background:#fff} 
+.legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
+
+
+.img-option input[type="radio"] { /* HIDE RADIO */
+  visibility: hidden; /* Makes input not-clickable */
+  position: absolute; /* Remove input from document flow */
+}
+
+.img-option input[type="checkbox"], .img-option input[type="radio"]  + img { /* IMAGE STYLES */
+  cursor:pointer;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(240,240,240,1); -moz-box-shadow: 10px 10px 5px 0px rgba(240,240,240,1);box-shadow: 10px 10px 5px 0px rgba(240,240,240,1)
+}
+.img-option input[type="checkbox"]:checked, input[type="radio"]:checked + img { /* (RADIO CHECKED) IMAGE STYLES */
+  border: 2px solid #4c7ff0;
+}
+
+
+.leaflet-top .leaflet-control {
+	margin-top: 10px;
+	}
+.leaflet-bottom .leaflet-control {
+	margin-bottom: 10px;
+	}
+.leaflet-left .leaflet-control {
+	margin-left: 10px;
+	}
+.leaflet-right .leaflet-control {
+	margin-right: 10px;
+	}
+
+.info { padding: 6px 8px; font: "Open Sans", Helvetica, Arial, sans-serif; background: white; background: rgba(255,255,255,0.8); box-shadow: 0 0 15px rgba(0,0,0,0.2); border-radius: 5px; } .info h4 { margin: 0 0 5px; color: #777; }
+.legend { text-align: left; line-height: 18px; color: #555; } .legend i { width: 18px; height: 18px; float: left; margin-right: 8px; opacity: 0.7; }
+
+.danger-hover:hover {color:#d26d54 !important}
+
+.profile-bio .avatar img {height:auto}
+
+.off-canvas-overlay {z-index:1}
+
+.bg-primary, .main-panel > .header {background-color: #5A6020 !important; color:#5A6020 !important; border-color: #5A6020 !important}
+.label-primary, .btn-primary, .btn-primary:hover, .c-input > input:checked ~ .c-indicator, ::selection {background-color: #694A86 !important; border-color: #694A86 !important; color:#fff}
+.text-primary {color:#694A86 !important}
+.navbar .nav a:hover {color:#694A86 !important}
+.slider-handle {background-image:none !important; background-color: #694A86 !important}
+
+.lead a, .lead a:hover {color:#666}
+
+.jssocials-share-link {border-radius: 50% !important}
+
+.fullscreen .navbar-inverse {display: none}
+.fullscreen .container-fluid {margin-top:20px}
+
+.markercolor .colorpicker-saturation {display: none !important}
+.markercolor .colorpicker-hue {display: none !important}
+.markercolor .colorpicker-alpha {display: none !important}
+.markercolor .colorpicker-color {display: none !important}
+
+.markercolor .colorpicker-selectors {padding: 0px 5px 0px 5px}
+.markercolor .colorpicker-selectors > i {width: 25px; height: 25px}
+
+.leaflet-touch .leaflet-control-measure .leaflet-control-measure-toggle, .leaflet-touch .leaflet-control-measure .leaflet-control-measure-toggle:hover {width:34px !important; height:34px !important}
+
+.panel {overflow:inherit}
+
+.m-0 {margin:0 !important}
+.m-t {margin-top:20px !important}
+
+.label-primary a {color:#fff}
+
+a:hover, a:focus {cursor:pointer}
+
+.dropdown-menu {z-index:2000}
+
+.spark-nav-profile-photo {height:auto !important}
+
+.navbar-inverse {background-color:#694A86}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a, .navbar-nav > li > a:hover {color:#fff !important}
+.map-sm {width:100%; height:250px}
+.map-md {width:100%; height:500px}
+.map-lg {width:100%; height:700px}
+.map-xl {width:100%; height:1000px}
+
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:hover, .nav-pills > li.active > a:focus {background-color:#694A86 !important}
+
+.f-h-md {height:30px !important;}
