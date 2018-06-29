@@ -4,6 +4,8 @@
 
   var preview_map = L.map('map').setView([{{ config('pmaps.map.lat') }}, {{ config('pmaps.map.lng') }}], '{{ config('pmaps.map.zoom') }}');
 
+  @if(isset($record->type))
+
   @switch($record->type)
 
   @case('tiles')
@@ -15,3 +17,5 @@
   @break
 
   @endswitch
+
+  @endif

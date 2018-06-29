@@ -14,7 +14,7 @@ Route::post('/contact', 'LandingController@message');
 
 Route::group(['middleware' => ['auth', 'checkStatus', 'isAdmin']], function () {
 
-	Route::resource('tilesets', 'TilesetController');
+	Route::resource('tilesets', 'TilesetController')->except(['show']);
 	Route::patch('/preview/tilesets', 'TilesetController@preview');
 
 	Route::resource('users', 'UserController');
