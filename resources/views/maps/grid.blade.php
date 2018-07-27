@@ -9,8 +9,12 @@
            
           </p>
 
+          @if(isset($record->team))
+
           <p class="label label-primary"><a href="{{ $record->team->url }}">{{ __('common.by') }} {{ $record->team->name }}</a></p>
           <br><br>
+
+          @endif
 
           @include('tags.list')
 

@@ -36,6 +36,8 @@ class Handler extends ExceptionHandler
      */
     public function report(Exception $e)
     {
+        if(env('APP_ENV') === 'production') {
+        
         if($this->shouldReport($e)) {
             if(Auth::check()){
                 \Log::error($e,[
@@ -44,6 +46,8 @@ class Handler extends ExceptionHandler
             }
         }
         return parent::report($e);
+        }
+
     }
 
     /**

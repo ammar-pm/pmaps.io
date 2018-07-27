@@ -17,6 +17,7 @@ class PostController extends Controller
      */
     public function index(Request $request, Post $post)
     {
+
         $data = [];
 
         $data['records'] = Post::orderBy('title')->paginate(20);
@@ -32,6 +33,8 @@ class PostController extends Controller
         $data['maps'] = Map::pluck('title', 'id');
 
         return view('posts.index', $data);
+
+
     }
 
     /**
