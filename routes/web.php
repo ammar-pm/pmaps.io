@@ -69,6 +69,8 @@ Route::group(['middleware' => ['auth', 'checkStatus']], function () {
 
 Route::get('logout', 'Auth\LoginController@logout');
 
+
+
 Route::get('/redirect', 'SocialAuthController@redirect');
 Route::get('/callback', 'SocialAuthController@callback');
 

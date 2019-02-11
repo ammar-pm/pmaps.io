@@ -22,7 +22,7 @@ class TrashController extends Controller
                 $coll->id = $record->id;
                 $coll->title = $record->title;
                 $coll->type = $class;
-                $coll->trash_by = $record->deleter->email;
+                $coll->trash_by = $record->deleter->email ?? "";
                 $coll->trash_date = $record->deleted_at;
                 $data->push($coll);
             }
