@@ -4,7 +4,7 @@
 <div class="row">
 
 		<div class="col-md-6">
-		    
+
 		    <p class="lead m-0">{{ $record->title }} </p>
 		    <p class="text-muted"><a href="{{ $record->team->url }}">{{ __('common.by') }} {{ $record->team->name }}</a></p>
 

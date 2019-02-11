@@ -1,10 +1,12 @@
 <div class="row">
 
   <div class="col-md-8">
-    <p class="lead m-0">{{ $record->title }}</p> 
-    <p><a href="{{ $record->team->url }}">{{ __('common.by') }} {{ $record->team->name }}</a></p>
-    <p class="text-muted">{{ $record->date }}</p>
-    
+
+
+      <p class="lead m-0">{{ $record->title }}</p>
+      <p><a href="{{  isset($record->team->url) ? $record->team->url : ''}}">{{ __('common.by') }} {{  isset($record->team->name) ? $record->team->name : ''}}</a></p>
+      <p class="text-muted">{{ $record->date }}</p>
+
     @include('tags.list')
 
   </div>
@@ -15,7 +17,7 @@
   </div>
   @endif
 
-</div><!--Row-->
+</div><!--Row333-->
 
 <div class="m-t-md">
  {!! $record->description !!}
