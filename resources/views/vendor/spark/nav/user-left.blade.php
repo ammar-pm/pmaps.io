@@ -5,7 +5,7 @@
 <li><a href="/maps">{{ __('common.maps') }}</a></li>
 <li><a href="/datasets">{{ __('common.datasets') }}</a></li>
 
-@if(Auth::user()->currentTeam()->plan == 'admin')
+@if( Auth::check() && Auth::user()->currentTeam()->plan == 'admin')
 
 <li><a href="/tilesets">{{ __('common.tilesets') }}</a></li>
 <li><a href="/categories">{{ __('common.categories') }}</a></li>
