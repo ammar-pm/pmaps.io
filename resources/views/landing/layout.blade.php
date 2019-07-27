@@ -59,11 +59,8 @@
               @else
               <li><a href="/login">Login</a></li>
               @endauth
-              <li class="separator"></li>
               @auth
               <li><a href="/dashboard" class="bordered scroll">Dashboard</a></li>
-              @else
-              <li><a href="/register" class="bordered scroll">Join</a></li>
               @endauth
             </ul>
           </div>
