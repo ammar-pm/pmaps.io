@@ -7,7 +7,7 @@
       <div class="row">       
 
       <div class="col-md-12 text-center p-0">
-          <h2 class="lead">Make your projects impactful</h2> 
+          <h2 class="lead">INFORMED POLICY AND BUSINESS DECISIONS</h2>
           <p class="lead">A toolkit for organizations working towards a sustainable future</p>
       </div>
 
@@ -45,51 +45,6 @@
   </div>
   <!-- /PLANS SECTION -->
 
-
-
-  <!-- IMAGE RIGHT SECTION -->
-  <div class="image-right" id="explore">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-6">
-
-          <h2 class="lead">Informed policy and business decisions</h2>
-          <p>Know what really drives the Palestinian economy. Intuitively understand key insights to inform and drive development projects.</p>
-          <a href="/register">Get Started</a>
-        </div>
-
-        <div class="col-sm-6 image">
-<div class="marvel-device iphone5s gold">
-    <div class="top-bar"></div>
-    <div class="sleep"></div>
-    <div class="volume"></div>
-    <div class="camera"></div>
-    <div class="sensor"></div>
-    <div class="speaker"></div>
-    <div class="screen">
-         <iframe width="98%" height="520" frameborder="0" src="{{ Config::get('featured_map') }}" allowfullscreen webkitallowfullscreen mozallowfullscreen oallowfullscreen msallowfullscreen></iframe>
-    </div>
-    <div class="home"></div>
-    <div class="bottom-bar"></div>
-</div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- /IMAGE RIGHT SECTION -->
-
-
-  <!-- BUTTON SECTION -->
-  <div class="button">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <span><strong>What really drives the Palestinian economy?</strong> </span><a href="/register">Get answers <i class="ion-arrow-right-c"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- /BUTTON SECTION -->
 
   <!-- SECTORS SECTION #1 -->
   <div class="features-1" id="sectors">
