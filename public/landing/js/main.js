@@ -3,7 +3,7 @@
 $(document).ready(function (){
 
   // backstretch
-  $("header").backstretch("/images/hero.jpg");
+  $("header").backstretch("/images/hero2.jpg");
 
   // Setting default easing
   jQuery.easing.def = "easeInOutExpo";
