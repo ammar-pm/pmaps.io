@@ -77,13 +77,6 @@
             <div class="col-sm-6 text">
               <h1 class="lead"><strong>{{ Config::get('tag_line') }}</strong></h1>
               <p>{{ Config::get('site_description') }}</p>
-
-              @if(Config::get('featured_video'))
-              <div class="buttons">
-                <a href="{{ Config::get('featured_video') }}" target="_blank" class="solid"><i class="ion-play"></i> Watch Demo</a> or <a href="/register" class="inline scroll">try now</a>
-              </div>
-              @endif
-              
             </div>
           </div>
         </div>
